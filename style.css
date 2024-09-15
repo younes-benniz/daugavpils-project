@@ -1,0 +1,22 @@
+body {
+	background-image: url('./Daugavpils_Multifunctional_Sports_Complex.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+/* Fixed size for the canvas */
+.canvas-box {
+	width: 640px;
+	height: 480px;
+	background-color: #e0e0e0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid black;
+}
+
+/* Ensuring the logo has a fixed size */
+.logo-box img {
+	width: 150px;
+	height: auto;
+}
